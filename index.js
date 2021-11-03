@@ -8,42 +8,42 @@ const generateMarkdown = require('./utils/generateMarkdown');
 const questions = [
 
     {
-        type: "module",
+        type: "input",
         message: "What is your Github username?",
         name: "username"
     },
     {
-        type: "module",
+        type: "input",
         message: "What is your email address?",
         name: "email address"
     },
     {
-        type: "module",
+        type: "input",
         message: "What is the name of this project?",
         name: "title"
     },
     {
-        type: "module",
+        type: "input",
         message: "Please enter a short description of your project:",
         name: "description"
     },
     {
-        type: "module",
+        type: "input",
         message: "What command should be called to install dependencies for this project?",
         name: "installation"
     },
     {
-        type: "module",
+        type: "input",
         message: "Who are the contruibutors for this project?",
         name: "contribution"
     },
     {
-        type: "module",
+        type: "input",
         message: "What command should be called to run testing on this project?",
         name: "tests"
     },
     {
-        type: "checkbox",
+        type: "list",
         message: "What liscense is required for you project?",
         name: "license",
         // https://docs.github.com/en/rest/reference/licenses
