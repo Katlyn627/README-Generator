@@ -1,9 +1,9 @@
 
     
-## HI
+## README Generator
 
 ## Description
-Hey
+Using a Node.js application a README file is created to A node.js application that uses user input from inquirer to populate a README.md file for user repository.
 
 ## Table of Contents
 1. [Installation](#installation)
@@ -15,21 +15,21 @@ Hey
 
 ## Installation
 To install the necessary dependencies, run the following command:
-K
+npm init
 
 ## Usage
-F
+Run the following command at th root of your project and answer the prompted questions:node index.js
 
 ## License 
-This project is licensed under the APACHE license.
+This project is licensed under the GPL license.
 
 ## Contributing
-H
+Katlyn Boches
 
 ## Tests
 To run tests, run the following command:
-GF
+Test
 
 ## Questions
-If you have any questions about this repo, open an issue or contact me directly at [katlynboches$gmail.com](mailto:katlynboches$gmail.com). You can find more of my work at [J](https://www.github.com/J).
+If you have any questions about this repo, open an issue or contact me directly at [katlynboches@gmail.com](mailto:katlynboches@gmail.com). You can find more of my work at [Katlyn627](https://www.github.com/Katlyn627).
   
