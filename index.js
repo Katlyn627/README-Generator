@@ -8,37 +8,37 @@ const generateMarkdown = require('./utils/generateMarkdown');
 const questions = [
 
     {
-        type: "input",
+        type: "module",
         message: "What is your Github username?",
-        name: "udername"
+        name: "username"
     },
     {
-        type: "input",
+        type: "module",
         message: "What is your email address?",
         name: "email address"
     },
     {
-        type: "input",
+        type: "module",
         message: "What is the name of this project?",
         name: "title"
     },
     {
-        type: "input",
+        type: "module",
         message: "Please enter a short description of your project:",
         name: "description"
     },
     {
-        type: "input",
+        type: "module",
         message: "What command should be called to install dependencies for this project?",
         name: "installation"
     },
     {
-        type: "input",
+        type: "module",
         message: "Who are the contruibutors for this project?",
         name: "contribution"
     },
     {
-        type: "input",
+        type: "module",
         message: "What command should be called to run testing on this project?",
         name: "tests"
     },
@@ -57,3 +57,23 @@ const questions = [
         ]
     }
 ];
+function writeToFile(fileName, data) {
+    let content = generateMarkdown(data);
+    writeToFile(fileName, content, function (error) {
+        if (error) {
+            return console.log(error)
+        }
+        console.log('success')
+    });
+}
+
+// Created function to initialize program to write README file
+function init() {
+    prompt(questions).then(function (data) {
+        var fileName = 'README.md';
+        writeToFile(fileName, data)
+    });
+}
+
+// Created function to call program
+init();
