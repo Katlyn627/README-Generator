@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Katlyn627/README-Generator/issues"
   },
-  "homepage": "https://github.com/Katlyn627/README-Generator#readme"
+  "homepage": "https://github.com/Katlyn627/README-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
 }
