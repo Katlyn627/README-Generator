@@ -35,4 +35,4 @@ function generateMarkdown(data) {
   `;
 }
 
-generateMarkdown(README.md);
+generateMarkdown();

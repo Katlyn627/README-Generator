@@ -69,9 +69,8 @@ function writeToFile(fileName, data) {
 
 // Created function to initialize program to write README file
 function init() {
-    prompt(questions).then(function (data) {
-        var fileName = 'README.md';
-        writeToFile(fileName, data)
+    inquirer.prompt(questions, function (answers){
+        console.log("Your name is: "+answers.my_name);
     });
 }
 
