@@ -31,7 +31,7 @@ ${data.installation}
 This project is licensed under the ${data.license} license.
 
 ## **Contributing**
-![icons8-search-96](https://user-images.githubusercontent.com/86095070/140413030-e0a58b78-e25e-47c4-ad69-028482a3dd90.png) ${data.contribution}
+ ${data.contribution}
 
 ## **Tests**
 To run tests, run the following command:
