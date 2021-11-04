@@ -39,7 +39,12 @@ ${data.tests}
 
 ## **Questions**
 If you have any questions about this repo, open an issue or contact me directly at: [${data.email}](mailto:${data.email}). You can find more of my work at [${data.username}](https://www.github.com/${data.username}).
-  `;
+
+## **Deployment** 
+
+Github: You can find the deployment link at [${data.username}](https://www.github.com/${data.username}).
+
+`;
 }
 
 module.exports = generateMarkdown;
