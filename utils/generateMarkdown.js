@@ -21,7 +21,7 @@ ${data.description}
 6. [Questions](#questions)
 
 ## **Installation**
-To install the necessary dependencies, run the following command:
+To install this project with necessary dependencies run the following command:
 ${data.installation}
 
 ## **Usage**
