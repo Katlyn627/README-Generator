@@ -5,6 +5,10 @@ function generateMarkdown(data) {
     
 ## **${data.title}**
 
+## **Video Walkthrough of Project**
+
+
+
 ## **Description**
 ${data.description}
 
@@ -17,11 +21,11 @@ ${data.description}
 6. [Questions](#questions)
 
 ## **Installation**
-![icons8-support-96](https://user-images.githubusercontent.com/86095070/140413027-0b255eb6-d5b2-48b8-83e8-4de45a1f15b3.png) To install the necessary dependencies, run the following command:
+To install the necessary dependencies, run the following command:
 ${data.installation}
 
 ## **Usage**
-![icons8-services-96](https://user-images.githubusercontent.com/86095070/140413028-28f6d599-b123-41e3-8ca5-25fe4b2b7805.png) ${data.usage}
+ ${data.usage}
 
 ## **License** 
 This project is licensed under the ${data.license} license.
@@ -34,7 +38,7 @@ To run tests, run the following command:
 ${data.tests}
 
 ## **Questions**
-If you have any questions about this repo, open an issue or contact me directly at ![icons8-gmail-96](https://user-images.githubusercontent.com/86095070/140413032-8279b840-208c-4826-b031-3524102d39e6.png) [${data.email}](mailto:${data.email}). You can find more of my work at [${data.username}](https://www.github.com/${data.username}).
+If you have any questions about this repo, open an issue or contact me directly at: [${data.email}](mailto:${data.email}). You can find more of my work at [${data.username}](https://www.github.com/${data.username}).
   `;
 }
 
