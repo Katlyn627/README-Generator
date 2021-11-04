@@ -40,7 +40,7 @@ async function init() {
         },
         {
             type: "input",
-            message: "What command should be called to install dependencies for this project?",
+            message: "What command should be called to install this project?",
             name: "installation"
         },
         {
